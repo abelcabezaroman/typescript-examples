@@ -1,3 +1,5 @@
+
+
 function addTwoNumbers(a: number, b: number): number {
 	return a + b;
 }
@@ -5,7 +7,6 @@ function addTwoNumbers(a: number, b: number): number {
 let addedNumber: number = addTwoNumbers(1, 2);
 
 console.log(addedNumber);
-
 
 
 

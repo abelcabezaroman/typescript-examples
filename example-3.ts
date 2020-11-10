@@ -1,3 +1,19 @@
+interface Car{
+    brand: string;
+    years: number;
+    numberOfWheels?: number;
+}
+
+let car1: Car = {years: 5, brand: 'Mercedez'}
+let car2: Car = {years: 5, brand: 'Mercedez', numberOfWheels: 5}
+
+
+
+
+
+
+
+
 interface Persona {
 	nombre: string;
     edad: number;
