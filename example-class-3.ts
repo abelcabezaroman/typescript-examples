@@ -37,7 +37,9 @@ class MotorBike extends MotorCycle{
 }
 
 const motorBike1 = new MotorBike('Yamaha 350z', 'Yamaha', 2, false)
-const car1 = new Car('Mazda 6', 'Mazda', 4,4)
+const car1 = new Car('Mazda 6', 'Mazda', 4, 4)
 
 console.log(car1.getName());
 console.log(motorBike1.getName());
+console.log(car1.sound());
+console.log(motorBike1.sound());

@@ -4,7 +4,12 @@ function addTwoNumbers(a: number, b: number): number {
 	return a + b;
 }
 
-let addedNumber: number = addTwoNumbers(1, 2);
+function addTwoNumbersWithoutTyped(a, b) {
+	return a + b;
+}
+
+let addedNumber: number = addTwoNumbers(2, 5);
+let addedNumberWithoutTyped = addTwoNumbersWithoutTyped(1, 'pepe');
 
 console.log(addedNumber);
 

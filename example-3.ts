@@ -5,7 +5,8 @@ interface Car{
 }
 
 let car1: Car = {years: 5, brand: 'Mercedez'}
-let car2: Car = {years: 5, brand: 'Mercedez', numberOfWheels: 5}
+let car2: Car = {years: 3, brand: 'Mercedez', numberOfWheels: 4}
+
 
 
 
@@ -26,7 +27,5 @@ interface Profesion {
 }
 
 let juan : Persona = { nombre: 'Juan Perez', edad: 20};
-let magdalena : Persona = { nombre: 'Juan Perez', edad: 20, profesion: [{nombre: 'Repostera', exp: 5}]};
+let magdalena : Persona = { nombre: 'Magdalena Perez', edad: 20, profesion: [{nombre: 'Repostera', exp: 5}]};
 console.log(juan);
-
-
