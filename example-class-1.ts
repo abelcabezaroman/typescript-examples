@@ -36,8 +36,13 @@ class Toy {
         this.minYears = minYears;
     }
 
-    sayMyName(): string {
-        return this.name;
+    sayMyName() {
+        console.log('Soy el juguete ' + this.name + ' de la marca ' + this.brand +' y necesitas tener ' +this.minYears +' años para usarme')
+    }
+
+    sayMyNameTwice(){
+        this.sayMyName();
+        this.sayMyName();
     }
 }
 

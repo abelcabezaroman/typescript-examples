@@ -13,13 +13,13 @@ class MotorCycle {
         console.log('Brum brum')
     }
 
-    getName(){
+    getName() {
         return this.name;
     }
 }
 
 class Car extends MotorCycle {
-    numberOfDoors:  number;
+    numberOfDoors: number;
 
     constructor(name: string, brand: string, numberOfWheels: number, numberOfDoors: number) {
         super(name, brand, numberOfWheels);
@@ -27,7 +27,7 @@ class Car extends MotorCycle {
     }
 }
 
-class MotorBike extends MotorCycle{
+class MotorBike extends MotorCycle {
     hasSidecar: boolean;
 
     constructor(name: string, brand: string, numberOfWheels: number, hasSidecar: boolean) {
@@ -39,7 +39,10 @@ class MotorBike extends MotorCycle{
 const motorBike1 = new MotorBike('Yamaha 350z', 'Yamaha', 2, false)
 const car1 = new Car('Mazda 6', 'Mazda', 4, 4)
 
+console.log(car1.brand);
+console.log(car1.getName());
 console.log(car1.getName());
 console.log(motorBike1.getName());
 console.log(car1.sound());
 console.log(motorBike1.sound());
+console.log(motorBike1.brand);

@@ -1,9 +1,9 @@
-interface Person {
+interface Ser {
     nombre: string;
     edad: number;
 }
 
-class Persona implements Person {
+class Persona implements Ser {
     nombre: string;
     edad: number;
 
@@ -17,6 +17,21 @@ class Persona implements Person {
     getName(): string {
         return this.nombre;
     }
+}
+
+class Alien implements Ser{
+    nombre: string;
+    edad: number;
+
+    constructor(nombre: string, edad: number) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    getEdad(){
+        return this.edad;
+    }
+
 }
 
 // Usaremos 'new' para generar nuevas instancias de la clase (haciendo uso del constructor interno)

@@ -1,6 +1,10 @@
 var a = 10;
 var b = 'Hola';
+var c = true;
 var list = [1, 2, 3, 4];
+var list2 = [1, 2, 3, 4];
 var listString = ['a', 'b', 'c'];
 var listMix = [1, 'b', 'c'];
-var abc;
+var abc = 10;
+abc = 'Abel';
+var surname = 'Cabeza Román';

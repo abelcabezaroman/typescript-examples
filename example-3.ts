@@ -12,9 +12,6 @@ let car2: Car = {years: 3, brand: 'Mercedez', numberOfWheels: 4}
 
 
 
-
-
-
 interface Persona {
 	nombre: string;
     edad: number;
